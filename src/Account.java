@@ -1,7 +1,26 @@
 public class Account {
     private String name;
+    private double balance;
 
-    // Allows user to set account name to something else
+    // Declare a constructor with 2 parameters
+    public Account(String name, double balance){
+        this.name = name; // Set the name of our account
+
+        // Check that initial balance is greater than $0
+        if(balance > 0.0)
+            this.balance = balance;
+    }
+    // Method that deposits (adds) only a valid amount to the balance
+    public void deposit(double depositAmount){
+        if(depositAmount > 0.0){
+            balance += depositAmount;
+        }
+    }
+
+    public double getBalance(){
+        return balance;
+    }
+    // Allow user to set account name to something else
     public void setName(String name){
         this.name = name;
     }
