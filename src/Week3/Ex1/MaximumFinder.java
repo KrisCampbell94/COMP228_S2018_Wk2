@@ -23,11 +23,15 @@ public class MaximumFinder {
     }
     // Find the maximum value between 3 double values
     public static double maximum(double x, double y, double z){
+        return Math.max(x,Math.max(y,z));
+        /*
         double maxValue = x;
         if(y > maxValue)
             maxValue = y;
         if (z > maxValue)
             maxValue = z;
         return maxValue;
+        */
+
     }
 }
