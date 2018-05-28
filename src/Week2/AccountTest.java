@@ -1,3 +1,5 @@
+package Week2;
+
 import java.util.Scanner;
 
 public class AccountTest {
@@ -5,8 +7,8 @@ public class AccountTest {
         //// Read user input
         //Scanner input = new Scanner(System.in);
 
-        //// Create an instance of Account
-        //Account myAccount = new Account();
+        //// Create an instance of Week2.Account
+        //Week2.Account myAccount = new Week2.Account();
 
         //// Display the default account info
         //System.out.printf("Initial name is: %s%n%n",myAccount.getName());

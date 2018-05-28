@@ -1,3 +1,5 @@
+package Week2;
+
 import javax.swing.*;
 
 public class DialogEx1 {
