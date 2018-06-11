@@ -27,7 +27,7 @@ public class LabelDemo {
         application.add(northLabel, BorderLayout.NORTH);
         application.add(centerLabel,BorderLayout.CENTER);
         application.add(southLabel,BorderLayout.SOUTH);
-        
+
         // Define the size of the frame
         application.setSize(300,300);
         application.setVisible(true);
